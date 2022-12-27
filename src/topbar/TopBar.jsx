@@ -8,6 +8,9 @@ export default function TopBar() {
     <div className="topCenter">
       <i class="fa-brands fa-instagram"></i></div>
     <div className="topRight"> <i class="fa-brands fa-youtube"></i></div>
+    <p>Test</p>
+    <p>Test</p>
+    <p>Test</p>
   </div>
   )
 }
