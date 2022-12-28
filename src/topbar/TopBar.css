@@ -8,10 +8,36 @@
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
 }
-
-.topLeft, .topRight {
-    flex: 3;
-}
 .topCenter{
     flex:6;
 }
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color:#444;
+    cursor: pointer;
+}
+
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.topLeft, .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topList{
+    display: flex;
+    justify-content:center;
+    margin :0;
+    padding: 0;
+    list-style: none;
+}
+
