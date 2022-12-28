@@ -3,10 +3,10 @@ import "./TopBar.css";
 export default function TopBar() {
   return (<div className="top">
     <div className="topLeft">
-      <i class="fa-brands fa-square-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-youtube"></i>
-      <i class="fa-brands fa-twitter"></i>
+      <i className="topIcon fa-brands fa-square-facebook"></i>
+      <i className="topIcon fa-brands fa-instagram"></i>
+      <i className="topIcon fa-brands fa-youtube"></i>
+      <i className="topIcon fa-brands fa-twitter"></i>
     </div>
     <div className="topCenter">
       <ul className="topList">
@@ -18,8 +18,10 @@ export default function TopBar() {
       </ul>
       </div>
     <div className="topRight"> 
-    <img src="https://en.wikipedia.org/wiki/Portrait_photography#/media/File:ECurtis.jpg" alt="" />
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <img
+    className="topImg"
+    src="https://mymodernmet.com/wp/wp-content/uploads/2018/10/Mou-Aysha-portrait-photography-3.jpg" alt="" />
+    <i className=" topSearchIcon fa-solid fa-magnifying-glass"></i>
     </div>
   </div>
   )
